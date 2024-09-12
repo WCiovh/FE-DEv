@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Webpage</title>
+    <meta name="description" content="Szukam nowej pasji w życiu">
+    <meta name="keywords" content="F1, Speed, Pleasure, Hobby">
+    <meta name="author" content="Wiktor Ciovh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color: #1C1C1C;">
+
+    <section id="Start">
+        <h4 style="text-align: center; color: #FF0000;">Jedyny prawdziwy sport F1</h4>
+    </section>
+
+    <nav>
+        <ul style="color: #0cc5eb;">
+            <li><a href="#Start" style="color:#0cc5eb;">Początek strony</a></li>
+            <li><a href="#Zdjecie" style="color: #0cc5eb;">Zdjęcie</a></li>
+            <li><a href="#Logowanie" style="color: #0cc5eb;">Logowanie</a></li>
+        </ul>
+    </nav>
+
+    <p style="color: azure;">
+        Formuła 1 to najbardziej prestiżowa seria wyścigowa na świecie, w której najlepsi kierowcy rywalizują na wyjątkowych torach, 
+        osiągając zawrotne prędkości. Każdy wyścig to prawdziwe widowisko, pełne adrenaliny, strategii oraz zaawansowanej technologii, 
+        która napędza zarówno samochody, jak i zespoły. Od lat króluje tu nie tylko walka o tytuły mistrza świata, ale także o doskonałość techniczną i innowacje. 
+        Formuła 1 to nie tylko sport, ale także spektakl, który przyciąga miliony fanów na całym świecie.
+    </p>
+
+    <section id="Zdjecie"></section>
+        <a style="color: #32CD32; text-decoration: none;" href="https://www.formula1.com/en/racing/2024" target="_blank" title="To zabierze cię w miejce gdzie wszystkie broblemy znikają">
+                Zobacz to na własne oczy
+        </a>
+
+        <br>
+
+        <div style="text-align: center;">
+            <img src="Mercedes-AMG W15.png" height="300" width="" alt="Piękno na jednym zdjęciu" title="Mercedes-AMG W15">
+        </div>
+    </section>
+
+    <section id="Logowanie">
+        <form action="action_page.php" method="post">
+
+            <div style="color: #FFFFFF;">
+                <label for="Imie" >Imię:</label>
+                <input type="text" id="Imie" name="Imie" placeholder="Twoje imię" required>
+            </div>
+
+            <div style="color: #C0C0C0;">
+                <label for="Nazwisko" >Nazwisko:</label>
+                <input type="text" id="Nazwisko" name="Nazwisko" placeholder="Twoje nazwisko" required>
+            </div>
+
+            <div style="color: #B0B0B0;"></div>
+                <label for="Numer" >Numer startowy:</label>
+                <input type="text" id="Numer" name="Numer" placeholder="Twój numer startowy" required>
+            </div>
+
+            <div>   
+                <button type="reset">Resetuj</button>  
+                <button type="submit">Zatwierdź</button>
+            </div>
+        </form> 
+    </section>   
+
+    <br>
+
+    <h5 style="color: rgb(102, 20, 245);" align="center">GP Azerbejdżanu</h5>
+
+    <table bgcolor="black" width="300" align="center">
+
+        <tr bgcolor="grey">
+            <th width="100">Piątek</th>
+            <th width="100">Sobota</th>
+            <th width="100">Niedziela</th>
+        </tr>
+
+        <tr bgcolor="lightgrey" align="center">
+            <td>11:30-16:30</td>
+            <td>10:30-15:00</td>
+            <td>13:00-15:30</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
