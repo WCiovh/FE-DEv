@@ -13,19 +13,35 @@
 
 <body style="background-color: #1C1C1C;">
 
+    <style>
+        .large-input {
+            width: 444px;  
+            height: 50px;
+            font-size: 40px;
+        }
+        .form-label {
+            font-size: 44px;
+        }
+        .button-label{
+            width: 244px;  
+            height: 50px;
+            font-size: 40px;
+        }
+    </style>
+    
     <section id="Start">
-        <h4 style="text-align: center; color: #FF0000;">Jedyny prawdziwy sport F1</h4>
+        <h1 style="text-align: center; color: #FF0000; font-size: 44px;"><b>Jedyny prawdziwy sport F1</b></h1>
     </section>
 
     <nav>
         <ul style="color: #0cc5eb;">
-            <li><a href="#Start" style="color:#0cc5eb;">Początek strony</a></li>
-            <li><a href="#Zdjecie" style="color: #0cc5eb;">Zdjęcie</a></li>
-            <li><a href="#Logowanie" style="color: #0cc5eb;">Logowanie</a></li>
+            <li><a href="#Start" style="color:#0cc5eb; font-size: 34px;">Początek strony</a></li>
+            <li><a href="#Zdjecie" style="color: #0cc5eb; font-size: 34px;">Zdjęcie</a></li>
+            <li><a href="#Logowanie" style="color: #0cc5eb; font-size: 34px;">Logowanie</a></li>
         </ul>
     </nav>
 
-    <p style="color: azure;">
+    <p style="color: azure; font-size: 33px;">
         Formuła 1 to najbardziej prestiżowa seria wyścigowa na świecie, w której najlepsi kierowcy rywalizują na wyjątkowych torach, 
         osiągając zawrotne prędkości. Każdy wyścig to prawdziwe widowisko, pełne adrenaliny, strategii oraz zaawansowanej technologii, 
         która napędza zarówno samochody, jak i zespoły. Od lat króluje tu nie tylko walka o tytuły mistrza świata, ale także o doskonałość techniczną i innowacje. 
@@ -33,58 +49,66 @@
     </p>
 
     <section id="Zdjecie"></section>
-        <a style="color: #32CD32; text-decoration: none;" href="https://www.formula1.com/en/racing/2024" target="_blank" title="To zabierze cię w miejce gdzie wszystkie broblemy znikają">
+        <a style="color: #32CD32; font-size: 34px; text-decoration: none;" href="https://www.formula1.com/en/racing/2024" target="_blank" title="To zabierze cię w miejce gdzie wszystkie broblemy znikają">
                 Zobacz to na własne oczy
         </a>
 
         <br>
 
         <div style="text-align: center;">
-            <img src="Mercedes-AMG W15.png" height="300" width="" alt="Piękno na jednym zdjęciu" title="Mercedes-AMG W15">
+            <img src="Mercedes-AMG W15.png" height="644" width="" alt="Piękno na jednym zdjęciu" title="Mercedes-AMG W15">
         </div>
     </section>
 
-    <section id="Logowanie">
-        <form action="action_page.php" method="post">
+    <br>
 
+    <section id="Logowanie">
+        <form action="" method="post">
+    
             <div style="color: #FFFFFF;">
-                <label for="Imie" >Imię:</label>
-                <input type="text" id="Imie" name="Imie" placeholder="Twoje imię" required>
+                <label for="Imie" class="form-label">Imię:</label>
+                <input type="text" id="Imie" name="Imie" placeholder="Twoje imię" required class="large-input">
             </div>
+    
+            <br>
 
             <div style="color: #C0C0C0;">
-                <label for="Nazwisko" >Nazwisko:</label>
-                <input type="text" id="Nazwisko" name="Nazwisko" placeholder="Twoje nazwisko" required>
+                <label for="Nazwisko" class="form-label">Nazwisko:</label>
+                <input type="text" id="Nazwisko" name="Nazwisko" placeholder="Twoje nazwisko" required class="large-input">
             </div>
+    
+            <br>
 
-            <div style="color: #B0B0B0;"></div>
-                <label for="Numer" >Numer startowy:</label>
-                <input type="text" id="Numer" name="Numer" placeholder="Twój numer startowy" required>
+            <div style="color: #B0B0B0;">
+                <label for="Numer" class="form-label">Numer startowy:</label>
+                <input type="text" id="Numer" name="Numer" placeholder="Twój numer startowy" required class="large-input">
             </div>
+    
+            <br>
 
             <div>   
-                <button type="reset">Resetuj</button>  
-                <button type="submit">Zatwierdź</button>
+                <button type="reset" class="button-label">Resetuj</button>  
+                <button type="submit" class="button-label">Zatwierdź</button>
             </div>
         </form> 
-    </section>   
+    </section>
 
     <br>
 
-    <h5 style="color: rgb(102, 20, 245);" align="center">GP Azerbejdżanu</h5>
+    <h1 style="color: rgb(102, 20, 245);" align="center">GP Azerbejdżanu</h1>
 
-    <table bgcolor="black" width="300" align="center">
+    <table bgcolor="black" width="900" height="" align="center" style="font-size: 30px;">
 
         <tr bgcolor="grey">
-            <th width="100">Piątek</th>
-            <th width="100">Sobota</th>
-            <th width="100">Niedziela</th>
+            <th width="300"  height="48">Piątek</th>
+            <th width="300"  height="48">Sobota</th>
+            <th width="300"  height="48">Niedziela</th>
         </tr>
 
         <tr bgcolor="lightgrey" align="center">
-            <td>11:30-16:30</td>
-            <td>10:30-15:00</td>
-            <td>13:00-15:30</td>
+            <td height="80">11:30-16:30</td>
+            <td height="80">10:30-15:00</td>
+            <td height="80">13:00-15:30</td>
         </tr>
 
     </table>
